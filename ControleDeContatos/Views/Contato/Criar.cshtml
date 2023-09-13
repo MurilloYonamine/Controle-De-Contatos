@@ -12,17 +12,20 @@
 <form method="post" asp-controller="Contato" asp-action="Criar">
     <div class="mb-3">
         <label for="nome" class="form-label">Nome:</label>
-        <input type="text" asp-for="Nome" class="form-control" id="nome" placeholder="Digite o nome do contato:">
+        <input type="text" asp-for="Nome" class="form-control" id="nome" placeholder="Digite o nome do contato:" >
+        <span class="text-danger">@Html.ValidationMessageFor(valid => valid.Nome)</span>
     </div>
 
     <div class="mb-3">
         <label for="email" class="form-label">E-mail:</label>
-        <input type="email" asp-for="Email" class="form-control" id="email" placeholder="Digite o e-mail do contato:">
+        <input type="email" asp-for="Email" class="form-control" id="email" placeholder="Digite o e-mail do contato:" autocomplete="off">
+        <span class="text-danger">@Html.ValidationMessageFor(valid => valid.Email)</span>
     </div>
 
     <div class="mb-3">
         <label for="celular" class="form-label">Celular:</label>
         <input type="text" asp-for="Celular" class="form-control" id="celular" placeholder="Digite o celular do contato:">
+        <span class="text-danger">@Html.ValidationMessageFor(valid => valid.Celular)</span>
     </div>
 
     <div class="d-grid gap-2">

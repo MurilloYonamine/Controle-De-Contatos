@@ -17,6 +17,6 @@ Este projeto é uma aplicação para controle de contatos que permite armazenar 
 ## Tecnologias Utilizadas
 
 - Linguagem de Programação: C#
-- Framework Web: ASP.NET Core
+- Framework Web: ASP.NET Core e o Entity Framework
 - Front-end: Bootstrap
 - Banco de Dados: SQL Server

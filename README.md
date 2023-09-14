@@ -1,6 +1,6 @@
 # Controle de Contatos em C# ASP.NET Core
 
-Este é um projeto de Controle de Contatos desenvolvido em C# ASP.NET Core por [Seu Nome]. O projeto utiliza Bootstrap para a interface do usuário, e integra o SQL Server para armazenamento de dados e um sistema de sessões para autenticação de usuários.
+Este é um projeto de Controle de Contatos em C# ASP.NET Core de um curso desta linguagem. O projeto utiliza Bootstrap para a interface do usuário, e integra o SQL Server para armazenamento de dados e um sistema de sessões para autenticação de usuários.
 
 ## Descrição
 

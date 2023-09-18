@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace ControleDeContatos.Helper
 {
-    public class Sessao : Isessao
+    public class Sessao : ISessao
     {
         private readonly IHttpContextAccessor _httpContext;
 

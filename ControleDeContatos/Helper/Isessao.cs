@@ -2,7 +2,7 @@
 
 namespace ControleDeContatos.Helper
 {
-    public interface Isessao
+    public interface ISessao
     {
         void CriarSessaoDoUsuario(UsuarioModel usuario);
         void RemoverSessaoDoUsuario();
